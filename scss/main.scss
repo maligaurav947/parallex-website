@@ -247,13 +247,18 @@ header {
       .contact-info {
         font-size: $info;
         text-align: left;
+
         display: block;
-        padding-left: 2.5em;
+        padding-left: 1em;
         p {
           font-weight: 600;
         }
         h3 {
+        margin-left: -1.3em;
           font-weight: 400;
+          i{
+            padding: 0 1.5em;
+          }
         }
         .contact-text {
           padding-left: 0.3em;
